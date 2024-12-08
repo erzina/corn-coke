@@ -6,7 +6,7 @@ import re
 import pandas as pd
 
 # Set page config
-st.set_page_config(page_title="Corn & Coke Recommendation", layout="wide")
+st.set_page_config(page_title="Corn & Coke", layout="wide")
 
 api_key = st.secrets["api_key"]
 client = openai.OpenAI(api_key=api_key)
